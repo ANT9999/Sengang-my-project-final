@@ -19,15 +19,14 @@
     .brand-circle {
       width: 65px;
       height: 65px;
-      background-color: #e2e2e2;
+      background-color: #ffffff;
       border: 1px solid #777;
       border-radius: 50%;
-      background-image: url(asset/images/Logos/l1.png); /* ដាក់ Path រូបភាពរបស់អ្នកនៅទីនេះ */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-    
+      background-image: url('l1.png'); /* កែសម្រួលមកប្រើ file l1.png នៅលើ GitHub ផ្ទាល់ */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
 
     /* Navigation Bar */
     .custom-navbar {
@@ -51,7 +50,7 @@
     }
 
     /* ========================================================
-       Custom Auto-sliding Banner (ដំណើរការ 100% មិនគាំង)
+       Custom Auto-sliding Banner
        ======================================================== */
     .banner-container {
       position: relative;
@@ -84,7 +83,7 @@
       object-fit: cover;
     }
 
-    /* Indicators (ចំណុចមូលៗខាងក្រោមរូប) */
+    /* Indicators */
     .banner-dots {
       position: absolute;
       bottom: 15px;
@@ -142,7 +141,6 @@
       object-fit: cover;
     }
 
-    /* Text Colors: Default Blue, Red on Hover */
     .product-title {
       font-size: 0.95rem;
       font-weight: 700;
@@ -213,7 +211,7 @@
 
   <div class="container py-4">
 
-    <!-- 1. Header (Logo & Nav)[cite: 1] -->
+    <!-- 1. Header (Logo & Nav) -->
     <div class="d-flex align-items-center gap-4 mb-4">
       <div class="brand-circle flex-shrink-0"></div>
       <div class="custom-navbar flex-grow-1 d-flex justify-content-start align-items-center">
@@ -224,7 +222,7 @@
       </div>
     </div>
 
-    <!-- 2. Auto-sliding Banner (ផ្លាស់ប្តូរស្វ័យប្រវត្តរាល់ 3 វិនាទី)[cite: 1] -->
+    <!-- 2. Auto-sliding Banner -->
     <div class="banner-container mb-5">
       <!-- Slide 1 -->
       <div class="banner-slide active">
@@ -247,7 +245,7 @@
       </div>
     </div>
 
-    <!-- 3. Product Grid (6 Columns x 3 Rows = 18 Cards)[cite: 1] -->
+    <!-- 3. Product Grid (6 Columns x 3 Rows = 18 Cards) -->
     <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 g-3 mb-5">
       
       <!-- ================= Row 1 ================= -->
@@ -262,306 +260,4 @@
       </div>
 
       <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300" alt="Accessories">
-          </div>
-          <div class="product-title">Accessories</div>
-          <p class="product-desc">Keyboards, mice, bags, and essentials to upgrade your setup and workflow.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=300" alt="Desktops">
-          </div>
-          <div class="product-title">Desktops</div>
-          <p class="product-desc">All-in-ones, gaming towers, and compact PCs built for performance and value.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=300" alt="Monitors">
-          </div>
-          <div class="product-title">Monitors</div>
-          <p class="product-desc">4K displays, gaming panels, and productivity screens with crisp color and fast response.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=300" alt="Components">
-          </div>
-          <div class="product-title">Components</div>
-          <p class="product-desc">CPUs, GPUs, RAM, and storage to upgrade, repair, or build your next PC.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=300" alt="Networking">
-          </div>
-          <div class="product-title">Networking</div>
-          <p class="product-desc">Routers, mesh Wi-Fi, and adapters for reliable connections.</p>
-        </div>
-      </div>
-
-      <!-- ================= Row 2 ================= -->
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=300" alt="Laptops">
-          </div>
-          <div class="product-title">Laptops</div>
-          <p class="product-desc">Ultralight notebooks, gaming laptops, and everyday portables from top brands.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300" alt="Accessories">
-          </div>
-          <div class="product-title">Accessories</div>
-          <p class="product-desc">Keyboards, mice, bags, and essentials to upgrade your setup and workflow.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=300" alt="Desktops">
-          </div>
-          <div class="product-title">Desktops</div>
-          <p class="product-desc">All-in-ones, gaming towers, and compact PCs built for performance and value.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=300" alt="Monitors">
-          </div>
-          <div class="product-title">Monitors</div>
-          <p class="product-desc">4K displays, gaming panels, and productivity screens with crisp color and fast response.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=300" alt="Components">
-          </div>
-          <div class="product-title">Components</div>
-          <p class="product-desc">CPUs, GPUs, RAM, and storage to upgrade, repair, or build your next PC.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=300" alt="Networking">
-          </div>
-          <div class="product-title">Networking</div>
-          <p class="product-desc">Routers, mesh Wi-Fi, and adapters for reliable connections.</p>
-        </div>
-      </div>
-
-      <!-- ================= Row 3 ================= -->
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=300" alt="Laptops">
-          </div>
-          <div class="product-title">Laptops</div>
-          <p class="product-desc">Ultralight notebooks, gaming laptops, and everyday portables from top brands.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300" alt="Accessories">
-          </div>
-          <div class="product-title">Accessories</div>
-          <p class="product-desc">Keyboards, mice, bags, and essentials to upgrade your setup and workflow.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=300" alt="Desktops">
-          </div>
-          <div class="product-title">Desktops</div>
-          <p class="product-desc">All-in-ones, gaming towers, and compact PCs built for performance and value.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=300" alt="Monitors">
-          </div>
-          <div class="product-title">Monitors</div>
-          <p class="product-desc">4K displays, gaming panels, and productivity screens with crisp color and fast response.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=300" alt="Components">
-          </div>
-          <div class="product-title">Components</div>
-          <p class="product-desc">CPUs, GPUs, RAM, and storage to upgrade, repair, or build your next PC.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="product-card">
-          <div class="product-img-box">
-            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=300" alt="Networking">
-          </div>
-          <div class="product-title">Networking</div>
-          <p class="product-desc">Routers, mesh Wi-Fi, and adapters for reliable connections.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- 4. Footer[cite: 1] -->
-  <footer class="pt-5 pb-4">
-    <div class="container">
-      <div class="row g-4 pb-4 border-bottom">
-        
-        <!-- Atlas Studio Column[cite: 1] -->
-        <div class="col-lg-4 col-md-6">
-          <div class="d-flex align-items-center gap-2 mb-2">
-            <span class="badge bg-black rounded p-2 fw-bold text-white">A</span>
-            <div>
-              <strong class="d-block">Atlas Studio</strong>
-              <small style="font-size: 0.7rem;">Built for clarity, speed, and long-term growth.</small>
-            </div>
-          </div>
-          <p class="mt-3 mb-3" style="font-size: 0.8rem; line-height: 1.5; max-width: 320px;">
-            A modern digital workspace for teams that need polished product experiences, clear information architecture, and a foundation that scales with confidence.[cite: 1]
-          </p>
-          <div class="d-flex gap-2">
-            <span class="badge bg-white border fw-normal py-1 px-2" style="font-size: 0.7rem;">Support 24/7</span>
-            <span style="font-size: 0.7rem; align-self: center;">Updated weekly</span>
-          </div>
-        </div>
-
-        <!-- Links Column 1: PRODUCT[cite: 1] -->
-        <div class="col-lg-2 col-6">
-          <div class="footer-heading">Product</div>
-          <ul class="footer-links">
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Templates</a></li>
-            <li><a href="#">Integrations</a></li>
-            <li><a href="#">Security</a></li>
-          </ul>
-        </div>
-
-        <!-- Links Column 2: COMPANY[cite: 1] -->
-        <div class="col-lg-2 col-6">
-          <div class="footer-heading">Company</div>
-          <ul class="footer-links">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-
-        <!-- Links Column 3: RESOURCES & LEGAL[cite: 1] -->
-        <div class="col-lg-1 col-6">
-          <div class="footer-heading">Resources</div>
-          <ul class="footer-links">
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Guides</a></li>
-            <li><a href="#">API Docs</a></li>
-            <li><a href="#">Status</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-1 col-6">
-          <div class="footer-heading">Legal</div>
-          <ul class="footer-links">
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Cookies</a></li>
-            <li><a href="#">Accessibility</a></li>
-          </ul>
-        </div>
-
-        <!-- Newsletter Column[cite: 1] -->
-        <div class="col-lg-2 col-md-6">
-          <div class="footer-heading">Newsletter</div>
-          <p style="font-size: 0.75rem;">Get product updates, launch notes, and design insights delivered to your inbox.</p>
-          <form class="d-flex gap-1 mt-2">
-            <input type="email" class="form-control form-control-sm" placeholder="Email address" style="font-size: 0.75rem;">
-            <button type="submit" class="btn btn-outline-primary btn-sm px-2" style="font-size: 0.75rem;">Subscribe</button>
-          </form>
-        </div>
-
-      </div>
-
-      <!-- Copyright & Social Icons[cite: 1] -->
-      <div class="d-flex flex-wrap justify-content-between align-items-center pt-3" style="font-size: 0.75rem;">
-        <div>&copy; 2026 Atlas Studio. All rights reserved.</div>
-        <div class="d-flex align-items-center gap-3">
-          <span>Follow us</span>
-          <a href="#" class="text-decoration-none"><i class="bi bi-twitter-x"></i></a>
-          <a href="#" class="text-decoration-none"><i class="bi bi-linkedin"></i></a>
-          <a href="#" class="text-decoration-none"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="text-decoration-none"><i class="bi bi-youtube"></i></a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Native JavaScript Auto Slide (ដំណើរការរាល់ 3 វិនាទី ១០០% ដោយមិនពឹងលើ Bootstrap JS) -->
-  <script>
-    let currentSlide = 0;
-    const slides = document.querySelectorAll('.banner-slide');
-    const dots = document.querySelectorAll('.banner-dot');
-    const totalSlides = slides.length;
-
-    function showSlide(index) {
-      slides.forEach((slide, i) => {
-        slide.classList.remove('active');
-        dots[i].classList.remove('active');
-      });
-      slides[index].classList.add('active');
-      dots[index].classList.add('active');
-      currentSlide = index;
-    }
-
-    function nextSlide() {
-      let next = (currentSlide + 1) % totalSlides;
-      showSlide(next);
-    }
-
-    function goToSlide(index) {
-      showSlide(index);
-      resetTimer();
-    }
-
-    // រត់រាល់ 3 វិនាទី (3000ms)
-    let slideInterval = setInterval(nextSlide, 3000);
-
-    function resetTimer() {
-      clearInterval(slideInterval);
-      slideInterval = setInterval(nextSlide, 3000);
-    }
-  </script>
-</body>
-</html>
+        <div class="
